@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>开放知识库</title>
+    <style>
+        .container {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+<!-------------------------------开放服务知识库-------------------------------->
+<div style="background-color: darkgreen; width: 2000px; height: 50px;" >
+    <h2 style="padding:5px 5px 0px 750px;color: white">开放服务知识库</h2>
+</div>
+<!-------------------------------开放服务知识库-------------------------------->
+<div class="container">
+    <div class="center">
+        <!-------------------------------知识搜索模块-------------------------------->
+        <form style="padding:px 5px 20px 10px;text-align: center">
+            <fieldset style="width: 300px;height: 100px;padding:0px 0px 25px 0px">
+                <legend><h3> 知识搜索区</h3></legend>
+                按知识名称搜索：<input type="text" style="width: 100px"><br>
+                按知识编号搜索：<input type="text" style="width: 100px"><br>
+            </fieldset>
+        </form>
+<!-------------------------------知识搜索模块-------------------------------->
+<!-------------------------------热门知识-------------------------------->
+        <form style="padding:5px 5px 20px 0px;">
+    <fieldset style="text-align: center;width: 300px;height: 300px;padding:0px 0px 25px 0px">
+        <legend><h3> 热门知识</h3></legend>
+        <li>
+            <button name="kno1" style="width: 200px;height: 25px;border-color: orangered;background-color: orangered;text-align: left"  type="button" @click="search()" class="am-btn am-btn-primary">
+            <option value="http://127.0.0.1:8000/360/7w.html/">知识1</option>
+        </li>
+        <li>
+            <button style="width: 200px;height: 25px;border-color: orangered;background-color: orangered;text-align: left"  type="button" @click="search()" class="am-btn am-btn-primary">
+            <option value="7w.html">知识2</option>
+        </li>
+        <li>
+            <button style="width: 200px;height: 25px;border-color: orangered;background-color: orangered;text-align: left"  type="button" @click="search()" class="am-btn am-btn-primary">
+            <option value="7w.html">知识3</option>
+        </li>
+        <li>
+            <button style="width: 200px;height: 25px;border-color: orangered;background-color: orangered;text-align: left"  type="button" @click="search()" class="am-btn am-btn-primary">
+            <option value="7w.html">知识4</option>
+        </li>
+        <li>
+            <button style="width: 200px;height: 25px;border-color: orangered;background-color: orangered;text-align: left"  type="button" @click="search()" class="am-btn am-btn-primary">
+            <option value="7w.html">知识5</option>
+        </li>
+        <li>
+            <button style="width: 200px;height: 25px;border-color: orangered;background-color: orangered;text-align: left"  type="button" @click="search()" class="am-btn am-btn-primary">
+            <option value="7w.html">知识6</option>
+        </li>
+        <li>
+            <button style="width: 200px;height: 25px;border-color: orangered;background-color: orangered;text-align: left"  type="button" @click="search()" class="am-btn am-btn-primary">
+            <option value="7w.html">知识7</option>
+        </li>
+        <li>
+            <button style="width: 200px;height: 25px;border-color: orangered;background-color: orangered;text-align: left"  type="button" @click="search()" class="am-btn am-btn-primary">
+            <option value="7w.html">知识8</option>
+        </li>
+        <li>
+            <button style="width: 200px;height: 25px;border-color: orangered;background-color: orangered;text-align: left"  type="button" @click="search()" class="am-btn am-btn-primary">
+            <option value="7w.html">知识9</option>
+        </li>
+        <li>
+            <button style="width: 200px;height: 25px;border-color: orangered;background-color: orangered;text-align: left"  type="button" @click="search()" class="am-btn am-btn-primary">
+            <option value="7w.html">知识10</option>
+        </li>
+        </button>
+    </fieldset>
+</form>
+<!-------------------------------热门知识-------------------------------->
+<!-------------------------------热门活动-------------------------------->
+<form style="padding:5px 5px 20px 0px;">
+    <fieldset style="text-align: center;width: 300px;height: 250px;padding:0px 0px 25px 0px">
+        <legend><h3> 热门活动</h3></legend>
+        <li style="text-align: center">活动一</li>
+        <li style="text-align: center">活动二</li>
+        <li style="text-align: center">活动三</li>
+        <li style="text-align: center">活动四</li>
+        <li style="text-align: center">活动五</li>
+        <li style="text-align: center">活动六</li>
+        <li style="text-align: center">活动七</li>
+        <li style="text-align: center">活动八</li>
+        <li style="text-align: center">活动九</li>
+        <li style="text-align: center">活动十</li>
+    </fieldset>
+</form>
+<!-------------------------------热门活动-------------------------------->
+<!-------------------------------琅琊榜-------------------------------->
+            <form style="padding:5px 5px 20px 0px;text-align: center;float: left">
+                <fieldset style="text-align: center;width: 300px;height: 250px;padding:0px 0px 25px 0px">
+                    <legend><h3> 项目履约榜</h3></legend>
+                    <li style="text-align: center">开放服务一部</li>
+                    <li style="text-align: center">开放服务二部</li>
+                    <li style="text-align: center">开放服务三部</li>
+                    <li style="text-align: center">开放服务四部</li>
+                    <li style="text-align: center">开放服务五部</li>
+                    <li style="text-align: center">开放服务六部</li>
+                    <li style="text-align: center">开放服务七部</li>
+                    <li style="text-align: center">开放服务八部</li>
+                    <li style="text-align: center">开放服务九部</li>
+                    <li style="text-align: center">开放服务十部</li>
+                </fieldset>
+            </form>
+            <form style="padding:5px 5px 20px 0px;float: left;text-align: center">
+                <fieldset style="text-align: center;width: 300px;height: 250px;padding:0px 0px 25px 0px">
+                    <legend><h3> KPI龙虎榜</h3></legend>
+                    <li style="text-align: center">开放服务一部</li>
+                    <li style="text-align: center">开放服务二部</li>
+                    <li style="text-align: center">开放服务三部</li>
+                    <li style="text-align: center">开放服务四部</li>
+                    <li style="text-align: center">开放服务五部</li>
+                    <li style="text-align: center">开放服务六部</li>
+                    <li style="text-align: center">开放服务七部</li>
+                    <li style="text-align: center">开放服务八部</li>
+                    <li style="text-align: center">开放服务九部</li>
+                    <li style="text-align: center">开放服务十部</li>
+                </fieldset>
+            </form>
+    </div>
+<!-------------------------------琅琊榜-------------------------------->
+    <div class="cen" style="padding:0px 5px 5px 0px">
+        <fieldset>
+            <legend><h3> 搜索显示区</h3></legend>
+            <iframe src="http://127.0.0.1:8000/360/7w.html/" style="width: 1340px;height: 1250px;padding:0px 5px 5px 0px;">
+        </fieldset>
+    </div>
+</div>
+
+</body>
+</html>
